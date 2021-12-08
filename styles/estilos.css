@@ -135,20 +135,138 @@ width: 250px;
 }
 /* Seccion ABOUT ME */
 #aboutme_content{
+    z-index: +300;
     height: 50vh;
     background-color: rgb(238, 237, 237);
 }
 #aboutme_foto{
     position: relative;
     left: 45%;
-    margin-top: 50px;
-    border-radius: 2%;
+    margin-top: 60px;
+    border-radius: 50%;
 }
 #aboutme_h2{
     position: absolute;
     left: 47%;
+    font-size: 30px;
     width:250px;
+}
+#aboutme_descripcion{
+    position: relative;
+    z-index: +300;
+    left: 35%;
+    width: 550px;
+    font-size: 18px;
+}
+
+/* Conocimientos */
+#conocimientos_content{
+    height: 20vh;
+    width: 100%;
+}
+#conocimientos_h3{
+    font-size: 30px;
+    position: absolute;
+    left: 44%;
+    color: white;
+    z-index: +201;
+}
+#conocimientos_containerflex{
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.conocimientos_cards{
+    top: 100px;
+    margin-left: 50px;
+    border-radius: 3%;
+background-color: white;
+z-index: +300;
+text-align: center;
+width: 150px;
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+height: 180px;
+}
+.conocimientos_cards:hover{
+    transition: .5S;
+    background-color: rgb(90, 90, 90);
+
+}
+#lineas{
+    background-image: url('../imagenes/lineas.png');
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    height: 822px;
+}
+
+.conocimientos_cards .iconsreact{
+    color: #61DBFB;
+    size: 15px;
+    font-size: 80px;
+}
+
+.card_name{
+    width: 100px;
+    font-size: 20px;
+    padding-left: 25px; 
+    color: black;
+}
+
+
+.conocimientos_cards .iconsjs{
+    color: #F0DB4F;
+    size: 15px;
+    font-size: 80px;
+}
+
+
+.conocimientos_cards .iconshtml{
+    color: #F06529;
+    size: 15px;
+    font-size: 80px;
 }
 
 
 
+.conocimientos_cards .iconscss{
+    color: #264de4;
+    size: 15px;
+    font-size: 80px;
+}
+
+
+.conocimientos_cards .iconsgit{
+    color: #F1502F;
+    size: 15px;
+    font-size: 80px;
+}
+
+.conocimientos_cards .iconsass{
+    color: #CD6799;
+    size: 15px;
+    font-size: 80px;
+}
+
+
+#card_firebaselogo{
+    width: 55px;
+}
+
+.conocimientos_cards .iconsbootstrap{
+    color: #553C7B;
+    size: 15px;
+    font-size: 80px;
+}
+#card_jquerylogo{
+    width: 75px;
+}
+#conocimientos_opacity{
+position: absolute;
+z-index: 100;
+background-color: rgb(27, 27, 27);
+opacity: 85%;
+width: 100%;
+height: 35%;
+}
