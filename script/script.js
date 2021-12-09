@@ -11,3 +11,10 @@ window.onscroll = function(){
     let progressHeight = (window.pageYOffset / totalHeight) * 100;
     progress.style.height=progressHeight + '%'
 }
+
+ScrollReveal().reveal('#aboutme_foto', { duration:500});
+
+ScrollReveal().reveal('#aboutme_descripcion', { delay: 500});
+
+
+ScrollReveal().reveal('.conocimientos_cards', {duration:1700});

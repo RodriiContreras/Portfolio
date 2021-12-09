@@ -8,8 +8,12 @@
     <link href="./styles/estilos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Readex+Pro:wght@600&family=Roboto:wght@100&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Readex+Pro:wght@600&family=Roboto:wght@100&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f8a3a83fec.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- <script>
+        ScrollReveal({ reset: true });
+    </script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 </head>
 <body>
@@ -37,11 +41,15 @@
      <p id="home_p">Y soy <span id="tipeado"></span> </p>
 </div>
 </div>
-<div id="lineas"></div>
+
   <div id="aboutme_content">
    <h2 id="aboutme_h2"> About Me</h2>
+
+   <div id="aboutme_fotoydescripcion">
+    <p id="aboutme_descripcion">Buenas! Mi nombre es Rodrigo Contreras,tengo 19 años.Empece en el mundo del desarrollo web hace un año al terminar el secundario,actualmente tengo conocimientos en tecnologias de Front-End pero estoy enfocandome en convertirme en Full-Stack.
+    </p>
    <img id="aboutme_foto" src="./imagenes/foto mia.jpg">
-   <p id="aboutme_descripcion">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</div>
  </div>
 
  <h3 id="conocimientos_h3">Conocimientos</h3>
@@ -51,52 +59,77 @@
     <div id="conocimientos_containerflex">
 
     <div class="conocimientos_cards">
+        <div class="cards_content">
         <i class="fab fa-react iconsreact"></i>
         <p class="card_name">React JS</p>
+        </div>  
     </div>
 
         <div class="conocimientos_cards">
+            <div class="cards_content">
             <i class="fab fa-js iconsjs"></i>
             <p class="card_name">Javascript</p>
+           </div>  
         </div>
 
         <div class="conocimientos_cards">
+            <div class="cards_content">
             <i class="fab fa-html5 iconshtml"></i>
             <p class="card_name">HTML5</p>
+            
+        </div>  
         </div>
 
         <div class="conocimientos_cards">
+            <div class="cards_content">
             <i class="fab fa-css3-alt iconscss"></i>
             <p class="card_name">CSS3</p>
         </div>
+        </div>
 
         <div class="conocimientos_cards">
+            <div class="cards_content">
             <i class="fab fa-git-alt iconsgit"></i>
             <p class="card_name">GIT</p>
         </div>
+        </div>
 
         <div class="conocimientos_cards">
+            <div class="cards_content">
             <i class="fab fa-sass iconsass"></i>
             <p class="card_name">SASS</p>
         </div>
+        </div>
 
         <div class="conocimientos_cards">
+            <div class="cards_content">
             <img id="card_firebaselogo" src="./imagenes/firebase.png">
             <p class="card_name">Firebase</p>
         </div>
-
-        <div class="conocimientos_cards">
-            <i class="fab fa-bootstrap iconsbootstrap"></i>
-            <p class="card_name">bootstrap</p>
         </div>
 
         <div class="conocimientos_cards">
+            <div class="cards_content">
+            <i class="fab fa-bootstrap iconsbootstrap"></i>
+            <p class="card_name">Bootstrap</p>
+        </div>
+        </div>
+
+        <div class="conocimientos_cards">
+            <div class="cards_content">
             <img id="card_jquerylogo" src="./imagenes/jquery.png">
             <p class="card_name">Jquery</p>
         </div>
+        </div>
 
     </div>
+
 </div>
+
+<div id="proyectos_opacity"></div>
+<div id='proyectos_content'>
+</div>
+
 <script src="./script/script.js"></script>
 </body>
 </html>
