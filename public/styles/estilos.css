@@ -1714,7 +1714,10 @@ margin-top: 100px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1658px){
-
+    #conocimientos_content{
+        height: 40vh;
+        width: 100%;
+    }
     #conocimientos_containerflex{
         margin-top: 100px;
         display: flex;
@@ -1724,7 +1727,7 @@ margin-top: 100px;
       }
       .conocimientos_cards{
           top: 100px;
-          margin-left: 20px;
+          margin-left: 5px;
           border-radius: 3%;
       background-color: white;
       z-index: +300;
@@ -1814,10 +1817,10 @@ margin-top: 100px;
     }
     #javascript_imagen{
         position: absolute;
-        left: 54.3%;
+        left: 51.3%;
         bottom: 0px;
         height: 400px;
-        width: 495px;
+        width: 48%;
     }
     #javascript_titulo{
         position: absolute;
