@@ -203,13 +203,6 @@ height: 180px;
     transform: translateY(-8%);
 
 }
-#lineas{
-    background-image: url('../imagenes/lineas.png');
-    position: absolute;
-    z-index: -10;
-    width: 100%;
-    height: 822px;
-}
 
 .cards_content{
     padding-top: 25px;
@@ -289,15 +282,1613 @@ height: 35.3%;
 /* SECCION PROYECTOS*/
 
 #proyectos_content{
-    height: 100vh;
+    height: 200vh;
     background-attachment: fixed;
     background-image: url('../imagenes/../imagenes/proyectos.jpeg');
 }
+#proyectos_contenedorproyectos{
+    margin-top: 250px;
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+
+    z-index: +201;
+}
+
 #proyectos_opacity{
     position: absolute;
     z-index: 100;
     background-color: rgb(79, 19, 19);
     opacity: 85%;
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     }
+    
+#proyectos_h4{
+    font-size: 30px;
+    position: absolute;
+    left: 42%;
+    color: rgb(209, 207, 207);
+    z-index: +205;
+}
+
+#proyectos_desarrolloweb{
+    display: inline-block;
+    border-radius: .5%;
+    background-color: white;
+    width: 80%;
+    height:400px;
+}
+#desarrolloweb_imagen{
+    height: 400px;
+    width: 700px;
+}
+#desarrolloweb_description{
+    position: absolute;
+    font-size: 20px ;
+    top: 100px;
+    left: 44%;
+}
+#desarrolloweb_link{
+    text-decoration: none;
+    color: black;
+}
+#desarrolloweb_tecnologiasflex{
+    position: absolute;
+    left: 42%;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    top: 200px;
+}
+.desarrollowebgit{
+    color: #F1502F;
+    font-size: 80px;
+}
+.desarrollowebhtml{
+    color: #F06529;
+    font-size: 80px;
+}
+.desarrollowebsass{
+    color: #CD6799;
+    font-size: 80px;
+}
+.desarrollowebbootstrap{
+    color: #553C7B;
+    font-size: 80px;
+}
+.desarrollowebcss{
+    color: #264de4;
+    font-size: 80px;
+}
+
+#desarrolloweb_h5{
+    left: 48%;
+    font-size: 30px ;
+    position: absolute;
+}
+
+
+#proyectos_javascript{
+    margin-top: 150px;
+    position: relative;
+    left: 20%;
+    display: block;
+    border-radius: .5%;
+    background-color: white;
+    width: 80%;
+    height:400px;
+}
+#javascript_imagen{
+    position: absolute;
+    left: 54.3%;
+    bottom: 0px;
+    height: 400px;
+    width: 700px;
+}
+#javascript_titulo{
+    position: absolute;
+    left: 17%;
+    font-size: 30px;
+}
+#javascript_description{
+    position: absolute;
+    font-size: 20px;
+    left: 140px;
+    top: 130px;
+}
+#javascript_tecnologiasflex{
+    position: absolute;
+    width: 700px;
+    left: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    top: 55%;
+}
+#javascript_link{
+    text-decoration: none;
+    color: black;
+}
+.tecnologiasjavascript{
+  font-size: 80px;
+  color: #F0DB4F;
+}
+
+
+#proyectos_react{
+    margin-top: 150px;
+    display: inline-block;
+    border-radius: .5%;
+    background-color: white;
+    width: 80%;
+    height:400px;
+}
+#react_p{
+    left: 52%;
+    font-size: 30px ;
+    font-weight: bolder;
+    position: absolute;
+}
+#react_description{
+    position: absolute;
+    font-size: 20px ;
+margin-top: 100px;
+    left: 44%;
+}
+#react_tecnologiasflex{
+    position: absolute;
+    margin-top: 200px;
+    left: 42%;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.proyectoreact{
+    font-size: 80px;
+    color: #61DBFB;
+}
+#react_imagen{
+    height: 400px;
+    width: 700px;
+}
+
+#react_link{
+    text-decoration: none;
+    color: black;
+}
+
+/*  Contactanos*/
+
+#contactanos_content{
+    
+    height: 55vh;
+    background-color: rgb(238, 237, 237);
+}
+
+#contactanos_form{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    top: 5%;
+    display: block;
+    position: relative;
+    left: 35%;
+    border: 2px solid rgb(157, 36, 36);
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    text-align: center;
+}
+#contactanos_h7{
+    font-size: 30px;
+}
+.form_input{
+    height: 40px;
+    font-size: 20px;
+    width: 90%;
+    margin-top: 20px;
+}
+#form_text{
+    margin-top: 10px;
+    width: 90%;
+    font-size: 20px;
+    height: 200px;
+}
+#form_enviar{
+    margin-top: 35px;
+    height: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+
+
+
+#footer{
+    width: 100%;
+    background-color: black;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    border-top:  1px solid  rgb(175, 171, 171);
+}
+.derechos{
+    color: white;
+    font-size: 20px;
+    margin-top: 28px;
+}
+.redes{
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+}
+.redes:hover{
+    transition: 1s;
+    color: red;
+}
+
+
+@media only screen and (max-width: 575px){
+    .navbar_links{
+        margin-left: 20px;
+    }
+    #home_presentacion{
+        color: white;
+       position: absolute;
+       z-index: +400;
+       height: 700px;
+       left: 1%;
+       top: 20%;
+    }
+    #home_hi{
+        font-size: 35px;
+        padding-top: 300px;
+        padding-left:20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #home_h1{
+        font-size: 70px;
+        padding-left: 40px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #home_p{
+        font-size: 35px;
+        padding-left: 20px;
+    color: white;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #container_foto{
+        position: absolute;
+        left: 20%;
+    }
+
+
+    /* About me*/
+
+    #aboutme_content{
+        z-index: +300;
+        height: 70vh;
+        background-color: rgb(238, 237, 237);
+    }
+    #aboutme_fotoydescripcion{
+        width: 100%;
+        padding-top: 100px;
+        display: block;
+    }
+    
+    #aboutme_foto{
+        width: 300px;
+        left: 15%;
+        border-radius: 50%;
+    }
+    #aboutme_descripcion{
+        position: absolute;
+        left: 2%;
+        z-index: +300;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 300px;
+        width: 550px;
+        font-weight: 200;
+        font-size: 25px;
+    }
+
+    /* Conocimientos*/
+    
+    #conocimientos_content{
+        height:58vh;
+        width: 100%;
+    }
+    #conocimientos_h3{
+        font-size: 30px;
+        position: absolute;
+        left: 44%;
+        color: black;
+        z-index: +201;
+    }
+    #conocimientos_containerflex{
+      margin-top: 100px;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .conocimientos_cards{
+        top: 100px;
+        margin-left: 30px;
+        border-radius: 3%;
+    background-color: white;
+    z-index: +300;
+    text-align: center;
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 180px;
+    }
+
+    /* proyectos*/
+
+    #proyectos_content{
+        height: 200vh;
+        background-attachment: fixed;
+        background-image: url('../imagenes/../imagenes/proyectos.jpeg');
+    }
+    #proyectos_contenedorproyectos{
+        margin-top: 250px;
+        position: absolute;
+        width: 100%;
+        height: 60vh;
+    
+        z-index: +201;
+    }
+    
+    #proyectos_opacity{
+        position: absolute;
+        z-index: 100;
+        background-color: rgb(79, 19, 19);
+        opacity: 85%;
+        width: 100%;
+        height: 200vh;
+        }
+        
+    #proyectos_h4{
+        font-size: 30px;
+        position: absolute;
+        left: 22%;
+        color: rgb(209, 207, 207);
+        z-index: +205;
+    }
+    
+    #proyectos_desarrolloweb{
+        display: block;
+        border-radius: .5%;
+        background-color: white;
+        width: 100%;
+        height:650px;
+    }
+    #desarrolloweb_imagen{
+        height: 400px;
+        width:100%;
+    }
+    #desarrolloweb_description{
+        position: absolute;
+        font-size: 20px ;
+        top: 450px;
+        left: 14%;
+    }
+    #desarrolloweb_link{
+        text-decoration: none;
+        color: black;
+    }
+    #desarrolloweb_tecnologiasflex{
+        position: absolute;
+        left: .5%;
+        width: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        top: 530px;
+    }
+    #desarrolloweb_h5{
+        left:20%;
+        padding-top: 360px;
+        font-size: 30px ;
+        position: absolute;
+    }
+    
+  /*  Proyecto Javascript*/
+
+    #proyectos_javascript{
+        margin-top: 150px;
+        position: relative;
+        left: 1%;
+        display: block;
+        border-radius: .5%;
+        background-color: white;
+        width: 99%;
+        height:700px;
+    }
+    #javascript_imagen{
+        position: absolute;
+        left: 1%;
+        height: 400px;
+        width: 99%;
+    }
+    #javascript_titulo{
+        position: absolute;
+        left: 18%;
+        font-size: 30px;
+    }
+    #javascript_description{
+        position: absolute;
+        font-size: 20px;
+        left: 100px;
+        top: 100px;
+    }
+    #javascript_tecnologiasflex{
+        position: absolute;
+        width: 98%;
+        left: 1px;
+        display: flex;
+        justify-content: space-evenly;
+        top: 25%;
+    }
+    #javascript_link{
+        text-decoration: none;
+        color: black;
+    }
+
+ /* Proyecto REACT */
+    #proyectos_react{
+        margin-top: 150px;
+        display:block;
+        border-radius: .5%;
+        background-color: white;
+        width: 100%;
+        height:600px;
+    }
+    #react_p{
+        left: 25%;
+        padding-top: 370px;
+        font-size: 30px;
+        font-weight: bolder;
+        position: absolute;
+    }
+    #react_description{
+        position: absolute;
+        font-size: 20px ;
+    margin-top: 450px;
+        left:15%;
+    }
+    #react_tecnologiasflex{
+        position: absolute;
+        margin-top: 500px;
+        left: 1%;
+        width: 98%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .proyectoreact{
+        font-size: 80px;
+        color: #61DBFB;
+    }
+    #react_imagen{
+        height: 400px;
+        width: 100%;
+    }
+    
+    #react_link{
+        text-decoration: none;
+        color: black;
+    }
+    
+    
+#contactanos_content{
+    
+    height: 108vh;
+    background-color: rgb(238, 237, 237);
+}
+
+#contactanos_form{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    top: 55%;
+    display: block;
+    position: relative;
+    left: 30px;
+    border: 2px solid rgb(157, 36, 36);
+    background-color: white;
+    width: 500px;
+    height: 450px;
+    text-align: center;
+}
+#contactanos_h7{
+    font-size: 30px;
+}
+.form_input{
+    height: 40px;
+    font-size: 20px;
+    width: 90%;
+    margin-top: 20px;
+}
+#form_text{
+    margin-top: 10px;
+    width: 90%;
+    font-size: 20px;
+    height: 200px;
+}
+#form_enviar{
+    margin-top: 35px;
+    height: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .navbar_links{
+        margin-left: 35px;
+    }
+    #home_presentacion{
+        color: white;
+       position: absolute;
+       z-index: +400;
+       height: 700px;
+       left: 10%;
+       top: 20%;
+    }
+    #home_hi{
+        font-size: 35px;
+        padding-top: 300px;
+        padding-left:20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #home_h1{
+        font-size: 70px;
+        padding-left: 40px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #home_p{
+        font-size: 35px;
+        padding-left: 20px;
+    color: white;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #container_foto{
+        position: absolute;
+        left: 26%;
+    }
+
+
+    /* About me*/
+
+    #aboutme_content{
+        z-index: +300;
+        height: 70vh;
+        background-color: rgb(238, 237, 237);
+    }
+    #aboutme_fotoydescripcion{
+        width: 100%;
+        padding-top: 100px;
+        display: block;
+    }
+    
+    #aboutme_foto{
+        width: 300px;
+        left: 30%;
+        border-radius: 50%;
+    }
+    #aboutme_descripcion{
+        position: absolute;
+        left: 15%;
+        z-index: +300;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 300px;
+        width: 550px;
+        font-weight: 200;
+        font-size: 25px;
+    }
+
+    /* Conocimientos*/
+    
+    #conocimientos_content{
+        height:58vh;
+        width: 100%;
+    }
+    #conocimientos_h3{
+        font-size: 30px;
+        position: absolute;
+        left: 44%;
+        color: black;
+        z-index: +201;
+    }
+    #conocimientos_containerflex{
+      margin-top: 100px;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .conocimientos_cards{
+        top: 100px;
+        margin-left: 30px;
+        border-radius: 3%;
+    background-color: white;
+    z-index: +300;
+    text-align: center;
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 180px;
+    }
+
+    /* proyectos*/
+
+    #proyectos_content{
+        height: 200vh;
+        background-attachment: fixed;
+        background-image: url('../imagenes/../imagenes/proyectos.jpeg');
+    }
+    #proyectos_contenedorproyectos{
+        margin-top: 250px;
+        position: absolute;
+        width: 100%;
+        height: 60vh;
+    
+        z-index: +201;
+    }
+    
+    #proyectos_opacity{
+        position: absolute;
+        z-index: 100;
+        background-color: rgb(79, 19, 19);
+        opacity: 85%;
+        width: 100%;
+        height: 200vh;
+        }
+        
+    #proyectos_h4{
+        font-size: 30px;
+        position: absolute;
+        left: 22%;
+        color: rgb(209, 207, 207);
+        z-index: +205;
+    }
+    
+    #proyectos_desarrolloweb{
+        display: block;
+        border-radius: .5%;
+        background-color: white;
+        width: 100%;
+        height:650px;
+    }
+    #desarrolloweb_imagen{
+        height: 400px;
+        width:100%;
+    }
+    #desarrolloweb_description{
+        position: absolute;
+        font-size: 20px ;
+        top: 450px;
+        left: 14%;
+    }
+    #desarrolloweb_link{
+        text-decoration: none;
+        color: black;
+    }
+    #desarrolloweb_tecnologiasflex{
+        position: absolute;
+        left: 15%;
+        width: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        top: 530px;
+    }
+    #desarrolloweb_h5{
+        left:20%;
+        padding-top: 360px;
+        font-size: 30px ;
+        position: absolute;
+    }
+    
+  /*  Proyecto Javascript*/
+
+    #proyectos_javascript{
+        margin-top: 150px;
+        position: relative;
+        left: 1%;
+        display: block;
+        border-radius: .5%;
+        background-color: white;
+        width: 99%;
+        height:700px;
+    }
+    #javascript_imagen{
+        position: absolute;
+        left: 1%;
+        height: 400px;
+        width: 99%;
+    }
+    #javascript_titulo{
+        position: absolute;
+        left: 18%;
+        font-size: 30px;
+    }
+    #javascript_description{
+        position: absolute;
+        font-size: 20px;
+        left: 100px;
+        top: 100px;
+    }
+    #javascript_tecnologiasflex{
+        position: absolute;
+        width: 98%;
+        left: 1px;
+        display: flex;
+        justify-content: space-evenly;
+        top: 25%;
+    }
+    #javascript_link{
+        text-decoration: none;
+        color: black;
+    }
+
+ /* Proyecto REACT */
+    #proyectos_react{
+        margin-top: 150px;
+        display:block;
+        border-radius: .5%;
+        background-color: white;
+        width: 100%;
+        height:600px;
+    }
+    #react_p{
+        left: 25%;
+        padding-top: 370px;
+        font-size: 30px;
+        font-weight: bolder;
+        position: absolute;
+    }
+    #react_description{
+        position: absolute;
+        font-size: 20px ;
+    margin-top: 450px;
+        left:15%;
+    }
+    #react_tecnologiasflex{
+        position: absolute;
+        margin-top: 500px;
+        left: 1%;
+        width: 98%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .proyectoreact{
+        font-size: 80px;
+        color: #61DBFB;
+    }
+    #react_imagen{
+        height: 400px;
+        width: 100%;
+    }
+    
+    #react_link{
+        text-decoration: none;
+        color: black;
+    }
+    
+    
+#contactanos_content{
+    
+    height: 108vh;
+    background-color: rgb(238, 237, 237);
+}
+
+#contactanos_form{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    top: 55%;
+    display: block;
+    position: relative;
+    left: 100px;
+    border: 2px solid rgb(157, 36, 36);
+    background-color: white;
+    width: 500px;
+    height: 450px;
+    text-align: center;
+}
+#contactanos_h7{
+    font-size: 30px;
+}
+.form_input{
+    height: 40px;
+    font-size: 20px;
+    width: 90%;
+    margin-top: 20px;
+}
+#form_text{
+    margin-top: 10px;
+    width: 90%;
+    font-size: 20px;
+    height: 200px;
+}
+#form_enviar{
+    margin-top: 35px;
+    height: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .navbar_links{
+        margin-left: 35px;
+    }
+    #home_presentacion{
+        color: white;
+       position: absolute;
+       z-index: +400;
+       height: 700px;
+       left: 20%;
+       top: 20%;
+    }
+    #home_hi{
+        font-size: 35px;
+        padding-top: 300px;
+        padding-left:20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #home_h1{
+        font-size: 70px;
+        padding-left: 40px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #home_p{
+        font-size: 35px;
+        padding-left: 20px;
+    color: white;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #container_foto{
+        position: absolute;
+        left: 26%;
+    }
+
+
+    /* About me*/
+
+    #aboutme_content{
+        z-index: +300;
+        height: 70vh;
+        background-color: rgb(238, 237, 237);
+    }
+    #aboutme_fotoydescripcion{
+        width: 100%;
+        padding-top: 100px;
+        display: block;
+    }
+    
+    #aboutme_foto{
+        width: 300px;
+        left: 40%;
+        border-radius: 50%;
+    }
+    #aboutme_descripcion{
+        position: absolute;
+        left: 25%;
+        z-index: +300;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 300px;
+        width: 550px;
+        font-weight: 200;
+        font-size: 25px;
+    }
+
+    /* Conocimientos*/
+    
+    #conocimientos_content{
+        height:58vh;
+        width: 100%;
+    }
+    #conocimientos_h3{
+        font-size: 30px;
+        position: absolute;
+        left: 44%;
+        color: black;
+        z-index: +201;
+    }
+    #conocimientos_containerflex{
+      margin-top: 100px;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .conocimientos_cards{
+        top: 100px;
+        margin-left: 30px;
+        border-radius: 3%;
+    background-color: white;
+    z-index: +300;
+    text-align: center;
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 180px;
+    }
+
+    /* proyectos*/
+
+    #proyectos_content{
+        height: 200vh;
+        background-attachment: fixed;
+        background-image: url('../imagenes/../imagenes/proyectos.jpeg');
+    }
+    #proyectos_contenedorproyectos{
+        margin-top: 250px;
+        position: absolute;
+        width: 100%;
+        height: 60vh;
+    
+        z-index: +201;
+    }
+    
+    #proyectos_opacity{
+        position: absolute;
+        z-index: 100;
+        background-color: rgb(79, 19, 19);
+        opacity: 85%;
+        width: 100%;
+        height: 200vh;
+        }
+        
+    #proyectos_h4{
+        font-size: 30px;
+        position: absolute;
+        left: 35%;
+        color: rgb(209, 207, 207);
+        z-index: +205;
+    }
+    
+    #proyectos_desarrolloweb{
+        display: block;
+        border-radius: .5%;
+        background-color: white;
+        width: 100%;
+        height:650px;
+    }
+    #desarrolloweb_imagen{
+        height: 400px;
+        width:100%;
+    }
+    #desarrolloweb_description{
+        position: absolute;
+        font-size: 20px ;
+        top: 450px;
+        left: 20%;
+    }
+    #desarrolloweb_link{
+        text-decoration: none;
+        color: black;
+    }
+    #desarrolloweb_tecnologiasflex{
+        position: absolute;
+        left: 25%;
+        width: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        top: 530px;
+    }
+    #desarrolloweb_h5{
+        left:30%;
+        padding-top: 360px;
+        font-size: 30px ;
+        position: absolute;
+    }
+    
+  /*  Proyecto Javascript*/
+
+    #proyectos_javascript{
+        margin-top: 150px;
+        position: relative;
+        left: 1%;
+        display: block;
+        border-radius: .5%;
+        background-color: white;
+        width: 99%;
+        height:700px;
+    }
+    #javascript_imagen{
+        position: absolute;
+        left: 1%;
+        height: 400px;
+        width: 99%;
+    }
+    #javascript_titulo{
+        position: absolute;
+        left: 35%;
+        font-size: 30px;
+    }
+    #javascript_description{
+        position: absolute;
+        font-size: 20px;
+        left:220px;
+        top: 100px;
+    }
+    #javascript_tecnologiasflex{
+        position: absolute;
+        width: 98%;
+        left: 1px;
+        display: flex;
+        justify-content: space-evenly;
+        top: 25%;
+    }
+    #javascript_link{
+        text-decoration: none;
+        color: black;
+    }
+
+ /* Proyecto REACT */
+    #proyectos_react{
+        margin-top: 150px;
+        display:block;
+        border-radius: .5%;
+        background-color: white;
+        width: 100%;
+        height:600px;
+    }
+    #react_p{
+        left: 25%;
+        padding-top: 370px;
+        font-size: 30px;
+        font-weight: bolder;
+        position: absolute;
+    }
+    #react_description{
+        position: absolute;
+        font-size: 20px ;
+    margin-top: 450px;
+        left:15%;
+    }
+    #react_tecnologiasflex{
+        position: absolute;
+        margin-top: 500px;
+        left: 1%;
+        width: 98%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .proyectoreact{
+        font-size: 80px;
+        color: #61DBFB;
+    }
+    #react_imagen{
+        height: 400px;
+        width: 100%;
+    }
+    
+    #react_link{
+        text-decoration: none;
+        color: black;
+    }
+    
+    
+#contactanos_content{
+    
+    height: 108vh;
+    background-color: rgb(238, 237, 237);
+}
+
+#contactanos_form{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    top: 55%;
+    display: block;
+    position: relative;
+    left: 100px;
+    border: 2px solid rgb(157, 36, 36);
+    background-color: white;
+    width: 500px;
+    height: 450px;
+    text-align: center;
+}
+#contactanos_h7{
+    font-size: 30px;
+}
+.form_input{
+    height: 40px;
+    font-size: 20px;
+    width: 90%;
+    margin-top: 20px;
+}
+#form_text{
+    margin-top: 10px;
+    width: 90%;
+    font-size: 20px;
+    height: 200px;
+}
+#form_enviar{
+    margin-top: 35px;
+    height: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .navbar_links{
+        margin-left: 35px;
+    }
+    #home_presentacion{
+        color: white;
+       position: absolute;
+       z-index: +400;
+       height: 700px;
+       left: 20%;
+       top: 20%;
+    }
+    #home_hi{
+        font-size: 35px;
+        padding-top: 300px;
+        padding-left:20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #home_h1{
+        font-size: 70px;
+        padding-left: 40px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #home_p{
+        font-size: 35px;
+        padding-left: 20px;
+    color: white;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #container_foto{
+        position: absolute;
+        left: 26%;
+    }
+
+
+    /* About me*/
+
+    #aboutme_content{
+        z-index: +300;
+        height: 70vh;
+        background-color: rgb(238, 237, 237);
+    }
+    #aboutme_fotoydescripcion{
+        width: 100%;
+        padding-top: 100px;
+        display: block;
+    }
+    
+    #aboutme_foto{
+        width: 300px;
+        left: 40%;
+        border-radius: 50%;
+    }
+    #aboutme_descripcion{
+        position: absolute;
+        left: 25%;
+        z-index: +300;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 300px;
+        width: 550px;
+        font-weight: 200;
+        font-size: 25px;
+    }
+
+    /* Conocimientos*/
+    
+    #conocimientos_content{
+        height:58vh;
+        width: 100%;
+    }
+    #conocimientos_h3{
+        font-size: 30px;
+        position: absolute;
+        left: 44%;
+        color: black;
+        z-index: +201;
+    }
+    #conocimientos_containerflex{
+      margin-top: 100px;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .conocimientos_cards{
+        top: 100px;
+        margin-left: 30px;
+        border-radius: 3%;
+    background-color: white;
+    z-index: +300;
+    text-align: center;
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 180px;
+    }
+
+    /* proyectos*/
+    #proyectos_opacity{
+        position: absolute;
+        z-index: 100;
+        background-color: rgb(79, 19, 19);
+        opacity: 85%;
+        width: 100%;
+        height: 320vh;
+        }
+    #proyectos_content{
+        height: 320vh;
+        background-attachment: fixed;
+        background-image: url('../imagenes/../imagenes/proyectos.jpeg');
+    }
+    #proyectos_contenedorproyectos{
+        margin-top: 250px;
+        position: absolute;
+        width: 100%;
+        height: 60vh;
+    
+        z-index: +201;
+    }
+    
+
+        
+    #proyectos_h4{
+        font-size: 30px;
+        position: absolute;
+        left: 35%;
+        color: rgb(209, 207, 207);
+        z-index: +205;
+    }
+    
+    #proyectos_desarrolloweb{
+        display: block;
+        border-radius: .5%;
+        background-color: white;
+        width: 100%;
+        height:850px;
+    }
+    #desarrolloweb_imagen{
+        height: 600px;
+        width:100%;
+    }
+    #desarrolloweb_description{
+        position: absolute;
+        font-size: 20px ;
+        top: 650px;
+        left: 25%;
+    }
+    #desarrolloweb_link{
+        text-decoration: none;
+        color: black;
+    }
+    #desarrolloweb_tecnologiasflex{
+        position: absolute;
+        left: 25%;
+        width: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        top: 730px;
+    }
+    #desarrolloweb_h5{
+        left:30%;
+        padding-top: 560px;
+        font-size: 30px;
+        position: absolute;
+    }
+    
+  /*  Proyecto Javascript*/
+
+    #proyectos_javascript{
+        margin-top: 150px;
+        position: relative;
+        left: 1%;
+        display: block;
+        border-radius: .5%;
+        background-color: white;
+        width: 99%;
+        height:900px;
+    }
+    #javascript_imagen{
+        position: absolute;
+        left: 1%;
+        height: 600px;
+        width: 99%;
+    }
+    #javascript_titulo{
+        position: absolute;
+        left: 35%;
+        font-size: 30px;
+    }
+    #javascript_description{
+        position: absolute;
+        font-size: 20px;
+        left:300px;
+        top: 100px;
+    }
+    #javascript_tecnologiasflex{
+        position: absolute;
+        width: 98%;
+        left: 1px;
+        display: flex;
+        justify-content: space-evenly;
+        top: 20%;
+    }
+    #javascript_link{
+        text-decoration: none;
+        color: black;
+    }
+
+ /* Proyecto REACT */
+    #proyectos_react{
+        margin-top: 150px;
+        display:block;
+        border-radius: .5%;
+        background-color: white;
+        width: 100%;
+        height:800px;
+    }
+    #react_p{
+        left: 35%;
+        padding-top: 570px;
+        font-size: 30px;
+        font-weight: bolder;
+        position: absolute;
+    }
+    #react_description{
+        position: absolute;
+        font-size: 20px;
+    margin-top: 650px;
+        left:20%;
+    }
+    #react_tecnologiasflex{
+        position: absolute;
+        margin-top: 700px;
+        left: 1%;
+        width: 98%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .proyectoreact{
+        font-size: 80px;
+        color: #61DBFB;
+    }
+    #react_imagen{
+        height: 600px;
+        width: 100%;
+    }
+    
+    #react_link{
+        text-decoration: none;
+        color: black;
+    }
+    
+    
+#contactanos_content{
+    
+    height: 50vh;
+    background-color: rgb(238, 237, 237);
+}
+
+#contactanos_form{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: block;
+    position: relative;
+    left: 300px;
+    border: 2px solid rgb(157, 36, 36);
+    background-color: white;
+    width: 500px;
+    height: 450px;
+    text-align: center;
+}
+#contactanos_h7{
+    font-size: 30px;
+}
+.form_input{
+    height: 40px;
+    font-size: 20px;
+    width: 90%;
+    margin-top: 20px;
+}
+#form_text{
+    margin-top: 10px;
+    width: 90%;
+    font-size: 20px;
+    height: 200px;
+}
+#form_enviar{
+    margin-top: 35px;
+    height: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1658px){
+
+    #conocimientos_containerflex{
+        margin-top: 100px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .conocimientos_cards{
+          top: 100px;
+          margin-left: 20px;
+          border-radius: 3%;
+      background-color: white;
+      z-index: +300;
+      text-align: center;
+      width: 150px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      height: 180px;
+      }
+
+
+    #proyectos_content{
+        height: 200vh;
+        background-attachment: fixed;
+        background-image: url('../imagenes/../imagenes/proyectos.jpeg');
+    }
+    #proyectos_contenedorproyectos{
+        margin-top: 250px;
+        position: absolute;
+        width: 100%;
+        height: 60vh;
+    
+        z-index: +201;
+    }
+    
+    #proyectos_opacity{
+        position: absolute;
+        z-index: 100;
+        background-color: rgb(79, 19, 19);
+        opacity: 85%;
+        width: 100%;
+        height: 200vh;
+        }
+        
+    #proyectos_h4{
+        font-size: 30px;
+        position: absolute;
+        left: 42%;
+        color: rgb(209, 207, 207);
+        z-index: +205;
+    }
+    
+    #proyectos_desarrolloweb{
+        display: inline-block;
+        border-radius: .5%;
+        background-color: white;
+        width: 95%;
+        height:400px;
+    }
+    #desarrolloweb_imagen{
+        height: 400px;
+        width: 600px;
+    }
+    #desarrolloweb_description{
+        position: absolute;
+        font-size: 20px ;
+        top: 100px;
+        left: 50%;
+    }
+    #desarrolloweb_link{
+        text-decoration: none;
+        color: black;
+    }
+    #desarrolloweb_tecnologiasflex{
+        position: absolute;
+        left: 52%;
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        top: 200px;
+    }
+    #desarrolloweb_h5{
+        left: 58%;
+        font-size: 30px ;
+        position: absolute;
+    }
+    
+    
+    #proyectos_javascript{
+        margin-top: 150px;
+        position: relative;
+        left: 10%;
+        display: block;
+        border-radius: .5%;
+        background-color: white;
+        width: 90%;
+        height:400px;
+    }
+    #javascript_imagen{
+        position: absolute;
+        left: 54.3%;
+        bottom: 0px;
+        height: 400px;
+        width: 495px;
+    }
+    #javascript_titulo{
+        position: absolute;
+        left: 10%;
+        font-size: 30px;
+    }
+    #javascript_description{
+        position: absolute;
+        font-size: 20px;
+        left: 30px;
+        top: 130px;
+    }
+    #javascript_tecnologiasflex{
+        position: absolute;
+        width: 45%;
+        left: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        top: 55%;
+    }
+    #javascript_link{
+        text-decoration: none;
+        color: black;
+    }
+    .tecnologiasjavascript{
+      font-size: 80px;
+      color: #F0DB4F;
+    }
+    
+    
+    #proyectos_react{
+        margin-top: 150px;
+        display: inline-block;
+        border-radius: .5%;
+        background-color: white;
+        width: 98%;
+        height:400px;
+    }
+    #react_p{
+        left: 65%;
+        font-size: 30px ;
+        font-weight: bolder;
+        position: absolute;
+    }
+    #react_description{
+        position: absolute;
+        font-size: 20px ;
+    margin-top: 100px;
+    width:350px;
+        left: 64%;
+    }
+    #react_tecnologiasflex{
+        position: absolute;
+        margin-top: 200px;
+        left: 58%;
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .proyectoreact{
+        font-size: 80px;
+        color: #61DBFB;
+    }
+    #react_imagen{
+        height: 400px;
+        width: 700px;
+    }
+    
+    #react_link{
+        text-decoration: none;
+        color: black;
+    }
+
+}
