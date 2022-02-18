@@ -170,7 +170,7 @@ width: 250px;
 
 /* Conocimientos */
 #conocimientos_content{
-    height: 25vh;
+    height: 40vh;
     width: 100%;
 }
 #conocimientos_h3{
@@ -181,14 +181,18 @@ width: 250px;
     z-index: +201;
 }
 #conocimientos_containerflex{
+    position: relative;
+    left: 17%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   margin-top: 100px;
-  width:100%;
+  width:60%;
 
 }
 .conocimientos_cards{
     top: 100px;
+    margin-top: 10px;
     margin-left: 10px;
     border-radius: 3%;
 background-color: white;
@@ -270,6 +274,13 @@ height: 180px;
 }
 #card_apollo{
     width: 80px;
+}
+#card_node{
+    width:120px;
+}
+#card_express{
+    margin-top: 25px;
+    width:150px;
 }
 
 .conocimientos_cards .iconsbootstrap{
@@ -1727,16 +1738,17 @@ margin-top: 100px;
 @media only screen and (min-width: 1200px) and (max-width: 1658px){
     #conocimientos_content{
         height: 40vh;
-        width: 100%;
+        width: 90%;
     }
     #conocimientos_containerflex{
-        margin-top: 100px;
+        margin-top: 80px;
         display: flex;
+        left: 5%;
         width: 100%;
         justify-content: center;
         flex-wrap: wrap;
       }
-      .conocimientos_cards{
+      .conocimientos_cards{     
           top: 100px;
           margin-left: 5px;
           border-radius: 3%;
