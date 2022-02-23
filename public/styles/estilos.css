@@ -279,8 +279,17 @@ height: 180px;
     width:120px;
 }
 #card_express{
-    margin-top: 25px;
     width:150px;
+}
+#card_Mongodblogo{
+    width: 120px;
+}
+
+#card_expressproyectros{
+    width:150px;
+}
+#card_Mongodblogocproyectos{
+    width: 120px;
 }
 
 .conocimientos_cards .iconsbootstrap{
@@ -304,7 +313,7 @@ height: 35.3%;
 /* SECCION PROYECTOS*/
 
 #proyectos_content{
-    height: 200vh;
+    height: 300vh;
     background-attachment: fixed;
     background-image: url('../imagenes/../imagenes/proyectos.jpeg');
 }
@@ -312,9 +321,12 @@ height: 35.3%;
     margin-top: 250px;
     position: absolute;
     width: 100%;
-    height: 60vh;
-
+    height: 80vh;
     z-index: +201;
+}
+#proyectos_coming{
+   background-color: black;
+   
 }
 
 #proyectos_opacity{
@@ -323,7 +335,7 @@ height: 35.3%;
     background-color: rgb(79, 19, 19);
     opacity: 85%;
     width: 100%;
-    height: 200vh;
+    height: 300vh;
     }
     
 #proyectos_h4{
